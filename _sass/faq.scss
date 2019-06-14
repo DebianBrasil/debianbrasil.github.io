@@ -1,0 +1,28 @@
+.faq {
+	ul {
+		padding: 0;
+		margin: 0 0 50px 40px;
+	}
+
+	li {
+		font-size: 1em;
+
+		a {
+			color: black;
+			padding: 5px 0;
+
+			&:hover {
+				color: green;
+			}
+		}
+	}
+}
+
+.faq-ul-menu{
+	list-style: none;
+
+	a{
+		text-decoration: none;
+	}
+
+}
