@@ -6,9 +6,7 @@ services:
     container_name: debian-brasil
     environment:
         - JEKYLL_ENV=docker
-    # force_polling makes the linux box watch for any changes to files, then it will regenerate
-    # livereload gets the browser to automatically refresh when changes happen to files
-    command: jekyll serve --force_polling --livereload
+    command: jekyll serve --watch --incremental
     ports:
         - 4000:4000
     volumes:
