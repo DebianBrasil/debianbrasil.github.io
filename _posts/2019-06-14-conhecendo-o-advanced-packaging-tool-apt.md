@@ -4,11 +4,9 @@ title: Conhecendo o Advanced Packaging Tool (APT)
 description: Neste artigo, vamos conhecer um pouco mais o Advanced Packaging Tool (APT), o gerenciador de pacotes do Debian e seus derivados.
 categories:
   - Iniciante
-resources:
-- name: "Layout documentation"
-  link: https://jekyllrb.com/docs/frontmatter/
-- name: "Source code"
-  link: https://github.com/CloudCannon/bakery-store/tree/layouts
+author:
+  - name: Allythy
+    link: https://allythy.github.io
 type: Document
 
 ---

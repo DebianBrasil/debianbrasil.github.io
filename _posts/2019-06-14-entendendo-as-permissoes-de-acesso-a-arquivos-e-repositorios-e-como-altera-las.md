@@ -4,7 +4,7 @@ title: Entendendo as permissões de acesso a arquivos e repositórios e como alt
 description: Neste artigo, vamos entendendo as permissões de acesso a arquivos e repositórios e como alterá-las.
 categories:
   - Iniciante
-resources:
+author:
   - name: Allythy
     link: https://allythy.github.io
 type: Document

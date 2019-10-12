@@ -1,6 +1,3 @@
-# ----
-# Site
-
 title: Portal - Debian Brasil
 url: "https://debianbrasil.github.io/"
 baseurl:
@@ -8,20 +5,16 @@ google_analytics_key:
 disqus_shortname:
 newsletter_action:
 
-# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /favicon.png
-description: #Knowledge base template for Jekyll.
+description:
 author:
   name:
   email:
-  twitter: debianbrasil # twitter username without the @ symbol
+  twitter: debianbrasil
 social:
   name: Debian Brasil
   links:
     - https://github.com/debianbrasil
-
-# -----
-# Build
 
 timezone: Etc/UTC
 
@@ -70,9 +63,6 @@ defaults:
       path: "index.html"
     values:
       body_class: "show_hero_search"
-
-# -----------
-# CloudCannon
 
 social_icons:
   - Facebook

@@ -4,9 +4,9 @@ title: Empacotamento e Compactação de arquivos no GNU/Linux
 description: Nesse artigo, vamos aprender sobre empacotamento e compactação de arquivos.
 categories:
   - Iniciante
-resources:
-  - name: Allythy
-    link: https://allythy.github.io
+author:
+    - name: Allythy
+      link: https://allythy.github.io
 type: Document
 ---
 
@@ -19,6 +19,7 @@ tar [opções] [nome do novo arquivo] [arquivo de origem]
 ```
 Vejamos alguma opções do comando tar:
 ```bash
+
 c = Cria um novo arquivo tar
 t = Exibe o conteúdo de um arquivo tar
 p = Mantém as permissões originais dos arquivos

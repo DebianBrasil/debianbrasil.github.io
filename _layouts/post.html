@@ -16,17 +16,20 @@ layout: default
 
 		{% if page.type == "Video" %}
 			{% include youtube.html video_id=page.video_id %}
-
-			{% if page.resources %}
-				<div class="resources">
-					<ul>
-						{% for resource in page.resources %}
-							<li><a href="{{ resource.link }}">{{ resource.name }}</a></li>
-						{% endfor %}
-					</ul>
-				</div>
-			{% endif %}
 		{% endif %}
+		<div class="author">
+			<ul>
+				{% for author in page.author %}
+					<li>
+						<p>Autor:
+							<a href="{{ author.link }}" target="_blank">
+								{{ author.name }}
+							</a>
+						</p>
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
 
 		<div class="tutorial-main">
 			{{ content }}
